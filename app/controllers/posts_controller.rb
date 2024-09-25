@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: %i[ show edit update destroy ]
+  before_action :set_post, only: %i[ show edit update destroy ] #callback (vai adicionar a função set_post antes de cada função destacada no "only")
 
   # GET /posts or /posts.json
   def index

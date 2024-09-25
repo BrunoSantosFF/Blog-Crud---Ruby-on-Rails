@@ -41,3 +41,13 @@ Você pode visualizar todas as rotas fornecidas pela aplicação Rails no seguin
 ```bash
 localhost:3000/rails/info/routes
 ```
+
+## Criando modelo (Model)
+```bash
+rails g model user first_name last_name
+```
+
+## Destruindo modelo
+```bash
+rails d model user 
+```
