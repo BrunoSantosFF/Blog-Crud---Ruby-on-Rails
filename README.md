@@ -28,6 +28,11 @@ Este projeto é um exemplo de aplicação Ruby on Rails que implementa um CRUD s
 ```bash
   rails s
 ```
+
+5. Gerando o scaffold (CRUD)
+```bash
+rails g scaffold Post title description:text
+```
 A aplicação estará rodando em localhost:3000.
 
 ## Compilando as migrações
@@ -50,4 +55,9 @@ rails g model user first_name last_name
 ## Destruindo modelo
 ```bash
 rails d model user 
+```
+
+## Criando um controller
+```bash
+rails g controller home index
 ```
